@@ -11,9 +11,18 @@
 
 <body>
     <header>
-        <div class="logo"><a href="#"><img src="imgs/logo.png" alt=""></a></div>
+        <div class="logo" id="logo"><a href="#" onclick="mostrar()"><img src="imgs/logo.png" alt=""></a></div>
     </header>
-    <Main>
+    <div id="sidebar" class="sidebar">
+        <ul class="menu">
+            <li><a href="#">COCA</a></li>
+            <li><a href="#">COLA</a></li>
+            <li><a href="#">PEP</a></li>
+            <li><a href="#">SI</a></li>
+            <li><a href="#">XD</a></li>
+        </ul>
+    </div>
+    <Main id="main">
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officiis iure a possimus, odit obcaecati in
             aliquid aut, assumenda sint architecto, magni facere delectus! Vel maxime omnis id reprehenderit rem?
@@ -25,14 +34,35 @@
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officiis iure a possimus, odit obcaecati in
-            aliquid aut, assumenda sint architecto, magni facere delectus! Vel maxime omnis id reprehenderit rem?
+            aliquid aut, assumenda sint architecjto, magni facere delectus! Vel maxime omnis id reprehenderit rem?
         </p>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officiis iure a possimus, odit obcaecati in
             aliquid aut, assumenda sint architecto, magni facere delectus! Vel maxime omnis id reprehenderit rem?
         </p>
-        
+
     </Main>
+    <footer>
+        <div class="texto">
+            Derechos Reservados 2023 XD, S.A de C.V |
+        </div>
+    </footer>
+    <script>
+        function mostrar() {
+            if (document.getElementById("sidebar").style.width == "300px") {
+                document.getElementById("sidebar").style.width = "0";
+                document.getElementById("logo").classList.add("imglogocerrar")
+                document.getElementById("main").style.marginLeft = "0px";
+                setTimeout(function () { document.getElementById("logo").classList.remove("imglogocerrar") }, 1000)
+
+            } else {
+                document.getElementById("sidebar").style.width = "300px";
+                document.getElementById("logo").classList.add("imglogoanim")
+                document.getElementById("main").style.marginLeft = "300px";
+                setTimeout(function () { document.getElementById("logo").classList.remove("imglogoanim") }, 1000)
+            }
+        }
+    </script>
 </body>
 
 </html>
