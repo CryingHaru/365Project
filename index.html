@@ -7,60 +7,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>365 EXPRESS - Principal</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 
 <body>
     <header>
-        <div class="logo" id="logo"><a href="#" onclick="mostrar()"><img src="imgs/logo.png" alt=""></a></div>
+        <div class="logo" onclick="mostrar()"><img src="imgs/logo.png" alt="" id="logo"><span style="font-family: cinvisible; font-size: 18px; margin-top: 5px;">EXPRESS</span></div>
     </header>
     <div id="sidebar" class="sidebar">
         <ul class="menu">
-            <li><a href="#">COCA</a></li>
-            <li><a href="#">COLA</a></li>
-            <li><a href="#">PEP</a></li>
-            <li><a href="#">SI</a></li>
-            <li><a href="#">XD</a></li>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="#">Categorias</a></li>
+            <li><a href="#">Acerca de</a></li>
         </ul>
     </div>
+ 
     <Main id="main">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officiis iure a possimus, odit obcaecati in
-            aliquid aut, assumenda sint architecto, magni facere delectus! Vel maxime omnis id reprehenderit rem?
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officiis iure a possimus, odit obcaecati in
-            aliquid aut, assumenda sint architecto, magni facere delectus! Vel maxime omnis id reprehenderit rem?
-        </p>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officiis iure a possimus, odit obcaecati in
-            aliquid aut, assumenda sint architecjto, magni facere delectus! Vel maxime omnis id reprehenderit rem?
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officiis iure a possimus, odit obcaecati in
-            aliquid aut, assumenda sint architecto, magni facere delectus! Vel maxime omnis id reprehenderit rem?
-        </p>
+        <div id="secarriba">
+
+        </div>
+        <div id="secizquierda">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <a href="/producto/bebidas/">
+                        <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%"
+                            title="Oferta de hoy">
+                    </a>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
+                </div>
+
+            </div>
+        </div>
+        <div id="seccentro">
+
+        </div>
+        <div id="secderecha">
+
+        </div>
 
     </Main>
     <footer>
         <div class="texto">
-            Derechos Reservados 2023 XD, S.A de C.V |
+            365 EXPRESS, La Union, El Salvador.
         </div>
     </footer>
     <script>
         function mostrar() {
-            if (document.getElementById("sidebar").style.width == "300px") {
+            if (document.getElementById("sidebar").style.width == "150px") {
                 document.getElementById("sidebar").style.width = "0";
                 document.getElementById("logo").classList.add("imglogocerrar")
                 document.getElementById("main").style.marginLeft = "0px";
                 setTimeout(function () { document.getElementById("logo").classList.remove("imglogocerrar") }, 1000)
 
             } else {
-                document.getElementById("sidebar").style.width = "300px";
+                document.getElementById("sidebar").style.width = "150px";
                 document.getElementById("logo").classList.add("imglogoanim")
-                document.getElementById("main").style.marginLeft = "300px";
+                document.getElementById("main").style.marginLeft = "150px";
                 setTimeout(function () { document.getElementById("logo").classList.remove("imglogoanim") }, 1000)
             }
+        }
+    </script>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 5000);
         }
     </script>
 </body>

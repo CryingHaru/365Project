@@ -3,7 +3,15 @@ body {
     margin-left: 0;
     margin-bottom: 0;
 }
-
+@font-face {
+    font-family: cinvisible;
+    src: url('fonts/invisible.otf');
+  }
+*{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -42,6 +50,7 @@ header .logo {
     display: flex;
     align-items: center;
     align-content: center;
+    text-align: center;
     width: 40px;
     height: 40px;
 }
@@ -78,11 +87,23 @@ header .logo img {
     width: 100%;
 }
 
-main {
+#main {
     padding-top: 5%;
     transition: margin-left 1s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85vh;
+    flex-wrap: wrap;
 }
-
+#secarriba{
+    height: 200px;
+    width: 100%;
+}
+#seccentro,#secizquierda,#secderecha {
+    width: 400px;
+    height: 100%;
+}
 footer {
     background-color: #F1F1F1;
     text-align: center;
@@ -106,25 +127,11 @@ footer .texto {
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: #30007e;
+    background-color: #0097FF;
     overflow-x: hidden;
     transition: 1s;
-    padding: 1rem 0;
+    margin-top: 70px;
     box-sizing: border-box;
-}
-
-.sidebar .boton-cerrar {
-    position: absolute;
-    top: 0.5rem;
-    right: 1rem;
-    font-size: 2rem;
-    display: block;
-    padding: 0;
-    line-height: 1.5rem;
-    margin: 0;
-    height: 32px;
-    width: 32px;
-    text-align: center;
 }
 
 .sidebar ul,
@@ -134,25 +141,36 @@ footer .texto {
     list-style: none inside;
 }
 
+.sidebar li {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 100%;
+}
+
 .sidebar ul {
-    margin: 4rem auto;
+    margin-top: 10px;
     display: block;
-    width: 80%;
+    width: 95%;
     min-width: 200px;
 }
 
 .sidebar a {
-    display: block;
-    font-size: 120%;
-    color: #eee;
     text-decoration: none;
+    color: black;
+    font-weight: bold;
 
 }
 
-.sidebar a:hover {
-    color: #fff;
-    background-color: #f90;
+.sidebar li:hover {
+    background-color: rgb(65, 238, 43);
+}
 
+.sidebar li:hover a {
+    color: #F1714B;
+}
+
+.sub-menu {
+    display: none;
 }
 
 h1 {
@@ -164,4 +182,78 @@ h1 {
 #contenido {
     transition: margin-left .4s;
     padding: 1rem;
+}
+
+
+/* slider extraido de w3schools */
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
 }

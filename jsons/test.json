@@ -1,0 +1,17 @@
+{
+    "categorias": [
+      {
+        "nombre": "Electrónica",
+        "subcategorias": ["Televisores", "Smartphones", "Laptops"]
+      },
+      {
+        "nombre": "Ropa",
+        "subcategorias": ["Hombres", "Mujeres", "Niños"]
+      },
+      {
+        "nombre": "Hogar",
+        "subcategorias": ["Muebles", "Electrodomésticos", "Decoración"]
+      }
+    ]
+  }
+  
