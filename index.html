@@ -12,7 +12,11 @@
 
 <body>
     <header>
-        <div class="logo" onclick="mostrar()"><img src="imgs/logo.png" alt="" id="logo"><span style="font-family: cinvisible; font-size: 18px; margin-top: 5px;">EXPRESS</span></div>
+        <div class="logo" onclick="mostrar()">
+            <img src="imgs/logo.png" alt="" id="logo">
+            <span style="font-family: cinvisible; font-size: 18px; margin-top: 5px;">EXPRESS</span>
+        </div>
+        <div class="hecontact"><span>TEL: +(503) 99999999</span></div>
     </header>
     <div id="sidebar" class="sidebar">
         <ul class="menu">
@@ -21,7 +25,7 @@
             <li><a href="#">Acerca de</a></li>
         </ul>
     </div>
- 
+
     <Main id="main">
         <div id="secarriba">
 
@@ -52,13 +56,13 @@
         <div id="secderecha">
 
         </div>
-
+        <footer>
+            <div class="texto">
+                365 EXPRESS, La Union, El Salvador.
+            </div>
+        </footer>
     </Main>
-    <footer>
-        <div class="texto">
-            365 EXPRESS, La Union, El Salvador.
-        </div>
-    </footer>
+
     <script>
         function mostrar() {
             if (document.getElementById("sidebar").style.width == "150px") {
@@ -74,8 +78,6 @@
                 setTimeout(function () { document.getElementById("logo").classList.remove("imglogoanim") }, 1000)
             }
         }
-    </script>
-    <script>
         let slideIndex = 0;
         showSlides();
 

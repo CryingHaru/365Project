@@ -1,7 +1,8 @@
 body {
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 0;
+    margin: 0;
+    max-width: 100vw;
+    padding: 0;
+    box-sizing: border-box;
 }
 @font-face {
     font-family: cinvisible;
@@ -34,9 +35,10 @@ header {
     color: #ffffff;
     position: fixed;
     background-color: #ffd900;
-    width: 100%;
+    width: 95%;
     height: 70px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding-left: 10px;
     padding-top: 10px;
@@ -88,25 +90,32 @@ header .logo img {
 }
 
 #main {
-    padding-top: 5%;
+    padding-top: 70px;
     transition: margin-left 1s;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85vh;
+    width: 100%;
+    max-width: 100%;
     flex-wrap: wrap;
 }
 #secarriba{
-    height: 200px;
+    background-color: red;
+    height: 50px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
 }
 #seccentro,#secizquierda,#secderecha {
+    margin: 5px 5px;
     width: 400px;
-    height: 100%;
+    height: 50em;
 }
 footer {
     background-color: #F1F1F1;
     text-align: center;
+    width: 100%;
     padding: 10px;
     display: flex;
     justify-content: center;
