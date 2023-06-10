@@ -10,7 +10,7 @@
 | Header    | Color    | #ffffff | Color blanco |
 |           | Position | fixed   | Mantiene el encabezado fijo en la pantalla |
 |           | Background-color | #ffd900 | Color amarillo-naranja |
-|           | Width    | 95%     | Establece el ancho del encabezado al 95% del ancho de la página |
+|           | Width    | 100%     | Establece el ancho del encabezado al 100% del ancho de la página |
 |           | Height   | 70px    | Establece la altura del encabezado en 70px |
 |           | Display  | flex    | Utiliza el modelo de diseño flexible |
 |           | Justify-content | space-between | Distribuye el espacio entre los elementos del encabezado |
@@ -101,4 +101,5 @@
 |       | animation-duration | 1.5s | Establece la duración de la animación en 1.5 segundos |
 | @keyframes fade | from | opacity: .4 | Define el estado inicial de la animación con una opacidad de 0.4 |
 |                  | to   | opacity: 1 | Define el estado final de la animación con una opacidad de 1 |
-| @media only screen and (max-width: 300px) | .text | font-size | 11px | Cuando la pantalla es más pequeña y tiene un ancho máximo de 300px, establece el tamaño de fuente de los elementos con la clase "text" en 11px |
+| @media only screen and (max-width: 300px) | ||
+|.text | font-size | 11px | Cuando la pantalla es más pequeña y tiene un ancho máximo de 300px, establece el tamaño de fuente de los elementos con la clase "text" en 11px |

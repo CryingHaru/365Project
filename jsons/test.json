@@ -1,17 +1,30 @@
-{
-    "categorias": [
-      {
+[
+    {
         "nombre": "Electrónica",
-        "subcategorias": ["Televisores", "Smartphones", "Laptops"]
-      },
-      {
+        "subcategorias": [
+            "Televisores",
+            "Smartphones",
+            "Laptops"
+        ]
+    },
+    {
         "nombre": "Ropa",
-        "subcategorias": ["Hombres", "Mujeres", "Niños"]
-      },
-      {
+        "subcategorias": [
+            {
+                "nombre":"info1"
+            },{
+                "nombre":"info2"
+            },{
+                "nombre":"info3"
+            }
+        ]
+    },
+    {
         "nombre": "Hogar",
-        "subcategorias": ["Muebles", "Electrodomésticos", "Decoración"]
-      }
-    ]
-  }
-  
+        "subcategorias": [
+            "Muebles",
+            "Electrodomésticos",
+            "Decoración"
+        ]
+    }
+]

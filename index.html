@@ -10,11 +10,15 @@
     <script src="main.js"></script>
 </head>
 
-<body>
+<body onload="cargarcategorias()">
     <header>
         <div class="logo" onclick="mostrar()">
             <img src="imgs/logo.png" alt="" id="logo">
             <span style="font-family: cinvisible; font-size: 18px; margin-top: 5px;">EXPRESS</span>
+        </div>
+        <div class="searchbox">
+            <input type="text" id="buscarinput" oninput="buscar()" placeholder="¿Buscas un producto?" style="width: 100%; height: 100%; border-radius: 5px;">
+            <ul id="autocomplete-list"></ul>
         </div>
         <div class="hecontact"><span>TEL: +(503) 99999999</span></div>
     </header>
@@ -27,8 +31,8 @@
     </div>
 
     <Main id="main">
-        <div id="secarriba">
-
+        <div id="secarriba" >
+            <ul id="catlist"></ul>
         </div>
         <div id="secizquierda">
             <div class="slideshow-container">
