@@ -6,59 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>365 EXPRESS - Principal</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/main.js"></script>
 </head>
 
-<body onload="cargarcategorias()">
+<body>
     <header>
         <div class="logo" onclick="mostrar()">
-            <img src="imgs/logo.png" alt="" id="logo">
+            <img src="/imgs/logo.png" alt="" id="logo">
             <span style="font-family: cinvisible; font-size: 18px; margin-top: 5px;">EXPRESS</span>
         </div>
-        <div class="searchbox">
-            <input type="text" id="buscarinput" oninput="buscar()" placeholder="¿Buscas un producto?" style="width: 100%; height: 100%; border-radius: 5px;">
-            <ul id="autocomplete-list"></ul>
+        <div class="hecontact"><a href="tel:+50377777777"
+                style="list-style: none; text-decoration: none; color: white;"><span>TEL: +(503) 99999999</span></a>
         </div>
-        <div class="hecontact"><span>TEL: +(503) 99999999</span></div>
     </header>
     <div id="sidebar" class="sidebar">
         <ul class="menu">
             <li><a href="/">Inicio</a></li>
-            <li><a href="#">Categorias</a></li>
+            <li><a href="#">Contacto</a></li>
             <li><a href="#">Acerca de</a></li>
         </ul>
     </div>
 
     <Main id="main">
-        <div id="secarriba" >
+        <div id="secarriba">
             <ul id="catlist"></ul>
         </div>
-        <div id="secizquierda">
-            <div class="slideshow-container">
-
-                <div class="mySlides fade">
-                    <a href="/producto/bebidas/">
-                        <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%"
-                            title="Oferta de hoy">
-                    </a>
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
-                </div>
-
+        <div>
+            <div id="ofertas" class="slider" style="height: 300px">
+                <ul>
+                    <li><a href=""><img src="imgs/ofertas/1.jpg" alt=""></a></li>
+                    <li><a href=""><img src="imgs/ofertas/2.jpg" alt=""></a></li>
+                    <li><a href=""><img src="imgs/ofertas/3.jpg" alt=""></a></li>
+                    <li><a href=""><img src="imgs/ofertas/4.jpg" alt=""></a></li>
+                    <li><a href=""><img src="imgs/ofertas/2.jpg" alt=""></a></li>
+                </ul>
             </div>
-        </div>
-        <div id="seccentro">
-
-        </div>
-        <div id="secderecha">
-
         </div>
         <footer>
             <div class="texto">
@@ -66,37 +49,6 @@
             </div>
         </footer>
     </Main>
-
-    <script>
-        function mostrar() {
-            if (document.getElementById("sidebar").style.width == "150px") {
-                document.getElementById("sidebar").style.width = "0";
-                document.getElementById("logo").classList.add("imglogocerrar")
-                document.getElementById("main").style.marginLeft = "0px";
-                setTimeout(function () { document.getElementById("logo").classList.remove("imglogocerrar") }, 1000)
-
-            } else {
-                document.getElementById("sidebar").style.width = "150px";
-                document.getElementById("logo").classList.add("imglogoanim")
-                document.getElementById("main").style.marginLeft = "150px";
-                setTimeout(function () { document.getElementById("logo").classList.remove("imglogoanim") }, 1000)
-            }
-        }
-        let slideIndex = 0;
-        showSlides();
-
-        function showSlides() {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1 }
-            slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 5000);
-        }
-    </script>
 </body>
 
 </html>
