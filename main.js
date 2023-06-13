@@ -32,3 +32,13 @@ function mostrar() {
         setTimeout(function () { document.getElementById("logo").classList.remove("imglogoanim") }, 1000)
     }
 }
+
+
+let n=0;
+function carrito(){
+    n++
+   let icono = document.getElementById("logocarrito")
+   icono.style.backgroundImage = "url('icons/shoplleno.svg')"
+   let numerito = document.getElementById("cartnum")
+   numerito.innerHTML = n;
+}
