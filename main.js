@@ -1,44 +1,36 @@
 
-fetch("jsons/test.json")
+fetch("jsons/articulos.json")
     .then(response => response.json())
     .then(data => {
-        const categoriaslis = document.getElementById("catlist")
+        const categoriaslis = document.getElementById("catlist");
         data.forEach(categorias => {
-            let circulito = document.createElement("div")
-            circulito.classList.add("circulito")
-            let circulitoimg = document.createElement("img")
-            circulitoimg.src = "/imgs/" + categorias.label + ".png"
-            let list = document.createElement("li")
+            let circulito = document.createElement("div");
+            circulito.classList.add("circulito");
+            let circulitoimg = document.createElement("img");
+            circulitoimg.src = "/imgs/" + categorias.label + ".png";
+            let list = document.createElement("li");
             list.innerHTML = categorias.label;
-            circulito.appendChild(circulitoimg)
-            circulito.appendChild(list)
+            circulito.appendChild(circulitoimg);
+            circulito.appendChild(list);
             list.classList.add("textos");
-            categoriaslis.appendChild(circulito)
+            categoriaslis.appendChild(circulito);
             circulito.onclick = function () {
-                window.location.href = "/productos/" + categorias.label+"/";
+                window.location.href = "/productos/" + categorias.label + "/";
             };
-        })
+        });
     });
 
 function mostrar() {
-    if (document.getElementById("sidebar").style.width == "150px") {
-        document.getElementById("sidebar").style.width = "0";
-        document.getElementById("logo").classList.add("imglogocerrar")
-        setTimeout(function () { document.getElementById("logo").classList.remove("imglogocerrar") }, 1000)
-
+    const sidebar = document.getElementById("sidebar");
+    const logo = document.getElementById("logo");
+    if (sidebar.style.width === "150px") {
+        sidebar.style.width = "0";
+        logo.classList.add("imglogocerrar");
+        setTimeout(function () { logo.classList.remove("imglogocerrar"); }, 1000);
     } else {
-        document.getElementById("sidebar").style.width = "150px";
-        document.getElementById("logo").classList.add("imglogoanim")
-        setTimeout(function () { document.getElementById("logo").classList.remove("imglogoanim") }, 1000)
+        sidebar.style.width = "150px";
+        logo.classList.add("imglogoanim");
+        setTimeout(function () { logo.classList.remove("imglogoanim"); }, 1000);
     }
 }
 
-
-let n=0;
-function carrito(){
-    n++
-   let icono = document.getElementById("logocarrito")
-   icono.style.backgroundImage = "url('icons/shoplleno.svg')"
-   let numerito = document.getElementById("cartnum")
-   numerito.innerHTML = n;
-}
