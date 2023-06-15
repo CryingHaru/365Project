@@ -1,5 +1,5 @@
 
-fetch("jsons/articulos.json")
+fetch("jsons/categorias.json")
     .then(response => response.json())
     .then(data => {
         const categoriaslis = document.getElementById("catlist");

@@ -400,13 +400,33 @@ footer {
 
 /* CSS PRODUCTOS */
 
-.mcont h2 {
-    color: rgb(240, 35, 35);
-    text-shadow: 1px 2px 2px rgb(15, 235, 26), 0 0 25px rgb(11, 11, 15), 0 0 5px rgb(19, 19, 20);
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.mcont span {
+    color: rgb(247, 45, 45);
+    font-size: 12px;
+    margin: 10px;
+    margin-bottom: 5px;
+    font-family: cinvisible;
+    text-shadow: 0px 2px 3px rgb(20, 243, 12);
+
 }
 
+.mcont .item{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 90px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid red;
+    background-color: #e0e0e0;
+}
 .mostrador {
     display: flex;
     flex-wrap: wrap;
@@ -417,18 +437,24 @@ footer {
 }
 
 .mcont {
+    display: flex;
+    flex-direction: column;
     margin: 10px 20px;
-    box-shadow: 0 4px 8px 0 rgb(241, 9, 9), 0 6px 20px 0 rgba(248, 232, 4, 0.986);
-    width: 200px;
-    background-color: rgba(241, 241, 248, 0.993);
+    box-shadow: 0 3px 8px 0 rgb(241, 9, 9), 0 6px 20px 0 rgba(248, 232, 4, 0.986);
+    width: 150px;
+    height: 240px;
     position: relative;
+    justify-content: space-between;
+    background-color: rgb(252, 228, 17);
+    border-radius: 10px;
 }
 
 .mcont img {
-    width: 200px;
-    height: auto;
-    display: flex;
-    justify-content: center;
+    width: 140px;
+    max-height: 200px;
+    margin: 10px auto;
+    border-radius: 20px;
+    display: block;
 }
 
 .mcont:hover {
