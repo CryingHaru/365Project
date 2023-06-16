@@ -1,0 +1,58 @@
+[
+  {
+    "nombre": "Alboroto Diana 185G",
+    "url": "/golosinas/diana/alboroto.jpg",
+    "precio": 1.17,
+    "cat":"Diana"
+  },
+  {
+    "nombre": "Jalapeños Diana 75G",
+    "url": "/golosinas/diana/jalapenios.jpg",
+    "precio": 0.66
+  },
+  {
+    "nombre": "Palitos Mediano Diana 185G",
+    "url": "/golosinas/diana/palito1.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "Palitos ChilimónDiana 185 gramos",
+    "url": "/golosinas/diana/palito2.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "Dulce Perla Diana 140G",
+    "url": "/golosinas/diana/perla.jpg",
+    "precio": 0.8
+  },
+  {
+    "nombre": "Picnic Chocolate 24 unidades 312G",
+    "url": "/golosinas/diana/picnicchoco.jpg",
+    "precio": 2.4
+  },
+  {
+    "nombre": "Picnic Vainilla 24 unidades 312G",
+    "url": "/golosinas/diana/picnicvainilla.jpg",
+    "precio": 2.4
+  },
+  {
+    "nombre": "Picnic Fresa 24 unidades 312G",
+    "url": "/golosinas/diana/picnicfresa.jpg",
+    "precio": 2.4
+  },
+  {
+    "nombre": "Quesitos No 1 Diana 125G",
+    "url": "/golosinas/diana/quesitos.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "Tocinitos Mediano Diana 130G",
+    "url": "/golosinas/diana/tocino.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "Yucatekas Diana 215G",
+    "url": "/golosinas/diana/yucatekas.jpg",
+    "precio": 2.15
+  }
+]

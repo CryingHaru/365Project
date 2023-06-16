@@ -1,0 +1,43 @@
+[
+  {
+    "nombre": "ADRENALINE 470 ML",
+    "url": "/bebidas/energizantes/adrenaline470ml.jpg",
+    "precio": 2.25,
+    "cat":"Energizantes"
+  },
+  {
+    "nombre": "AMP AZUL 400 ML",
+    "url": "/bebidas/energizantes/ampazul400ml.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "AMP ROJA 400 ML",
+    "url": "/bebidas/energizantes/amproja400ml.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "ENERGY 500 ML",
+    "url": "/bebidas/energizantes/energy500ml.jpg",
+    "precio": 0.95
+  },
+  {
+    "nombre": "FURY 500 ML",
+    "url": "/bebidas/energizantes/fury500ml.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "MONSTER 470 ML",
+    "url": "/bebidas/energizantes/monster470ml.jpg",
+    "precio": 2.25
+  },
+  {
+    "nombre": "RAPTOR 500 ML",
+    "url": "/bebidas/energizantes/raptor500ml.jpg",
+    "precio": 1.1
+  },
+  {
+    "nombre": "RED BULL 250 ML",
+    "url": "/bebidas/energizantes/redbull250ml.jpg",
+    "precio": 2.35
+  }
+]

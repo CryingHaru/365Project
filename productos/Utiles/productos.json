@@ -1,0 +1,98 @@
+[
+  {
+    "nombre": "ACUARELAS FACELA",
+    "url": "/utiles/acuarelafacela.jpg",
+    "precio": 4.25,
+    "cat":"Utiles"
+  },
+  {
+    "nombre": "BOLIGRAFOS AZUL 12 UNIDADES",
+    "url": "/utiles/azulfacela.jpg",
+    "precio": 2.25
+  },
+  {
+    "nombre": "BORRADORES FACELA 2 UNIDADES",
+    "url": "/utiles/borradorfacela.jpg",
+    "precio": 0.55
+  },
+  {
+    "nombre": "CILICON FACELA",
+    "url": "/utiles/ciliconfacela.jpg",
+    "precio": 0.75
+  },
+  {
+    "nombre": "COLORES FACELA CARIBE 12 UNIDADES",
+    "url": "/utiles/coloresfacela.jpg",
+    "precio": 2.55
+  },
+  {
+    "nombre": "COLORES FACELA MERCURY",
+    "url": "/utiles/coloresfacelamercury.jpg",
+    "precio": 4.15
+  },
+  {
+    "nombre": "LAPICEROS BIC 3 UNIDADES",
+    "url": "/utiles/lapicerosbic.jpg",
+    "precio": 0.85
+  },
+  {
+    "nombre": "BOLIGRAFOS NEGROS 12 UNIDADES",
+    "url": "/utiles/lapicerosfacela.jpg",
+    "precio": 2.25
+  },
+  {
+    "nombre": "LAPIZ CARBON FACELA 12 UNIDADES",
+    "url": "/utiles/lapizcarbon.jpg",
+    "precio": 1.55
+  },
+  {
+    "nombre": "LAPIZ CARBON FACELA 1 UNIDAD",
+    "url": "/utiles/lapizfacela.jpg",
+    "precio": 0.25
+  },
+  {
+    "nombre": "MARCADORES FACELA 24 UNIDADES",
+    "url": "/utiles/marcadoresfacela.jpg",
+    "precio": 8.25
+  },
+  {
+    "nombre": "BOLIGRAFO MULTICOLOR BIC",
+    "url": "/utiles/multicolorbic.jpg",
+    "precio": 0.65
+  },
+  {
+    "nombre": "PEGAMENTO FACELA",
+    "url": "/utiles/pegamentofacela.jpg",
+    "precio": 0.85
+  },
+  {
+    "nombre": "PLUMON 90 ARTLINE",
+    "url": "/utiles/plumon90azul.jpg",
+    "precio": 1.25
+  },
+  {
+    "nombre": "PLUMON 90 NEGRO ARTLINE",
+    "url": "/utiles/plumon90negro.jpg",
+    "precio": 1.25
+  },
+  {
+    "nombre": "PLUMON 509 AZUL ARTLINE",
+    "url": "/utiles/plumon509azul.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "PLUMON 509 NEGRO ARTLINE",
+    "url": "/utiles/plumon509negro.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "PLUMON 509 ROJO ARTLINE",
+    "url": "/utiles/plumon509rojo.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "TIJERA FACELA",
+    "url": "/utiles/tijerafacela.jpg",
+    "precio": 1.75
+  }
+]

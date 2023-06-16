@@ -1,0 +1,43 @@
+[
+  {
+    "nombre": "LEJIA MAGIA BLANCA 3.7 LITROS",
+    "url": "/limpieza/detergente/legiablanca3.7lt.jpg",
+    "precio": 4.55,
+    "cat":"Detergentes"
+  },
+  {
+    "nombre": "FARDO LEJIA MAGIA BLANCA 200 ML",
+    "url": "/limpieza/detergente/legiablanca200ml.jpg",
+    "precio": 1.55
+  },
+  {
+    "nombre": "LEJIA MAXI SOL 200 ML",
+    "url": "/limpieza/detergente/legiasol200ml.jpg",
+    "precio": 1.25
+  },
+  {
+    "nombre": "RINSO ROSAS Y LILAS 1,5 KG",
+    "url": "/limpieza/detergente/rinso15kg.jpg",
+    "precio": 3.85
+  },
+  {
+    "nombre": "RINSO TIERRA VIVA 1 KG",
+    "url": "/limpieza/detergente/rinso1kg.jpg",
+    "precio": 1.85
+  },
+  {
+    "nombre": "RINSO MULTIPODER 5 KG",
+    "url": "/limpieza/detergente/rinso5kg.jpg",
+    "precio": 10.55
+  },
+  {
+    "nombre": "RINSO ROSAS Y LILAS 450 G",
+    "url": "/limpieza/detergente/rinso450g.jpg",
+    "precio": 1.35
+  },
+  {
+    "nombre": "SUAVITEL FRESCA PRIMAVERA 2.8 LITROS",
+    "url": "/limpieza/detergente/suavitel2.8lt.jpg",
+    "precio": 9.85
+  }
+]

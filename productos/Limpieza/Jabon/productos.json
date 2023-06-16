@@ -1,0 +1,43 @@
+[
+    {
+      "nombre": "JABON LAVAR TRASTES AXION 425 G",
+      "url": "/limpieza/jabon/axion425g.jpg",
+      "precio": 1.35,
+      "cat":"Jabones"
+    },
+    {
+      "nombre": "JABON LAVAR TRASTES AXION 600 G",
+      "url": "/limpieza/jabon/axionlimon600g.jpg",
+      "precio": 2.25
+    },
+    {
+      "nombre": "JABON LAVAR TRASTES DISCO AXION  130 G",
+      "url": "/limpieza/jabon/axion130g.jpg",
+      "precio": 0.35
+    },
+    {
+      "nombre": "JABON DOVE BAÑO 135 G",
+      "url": "/limpieza/jabon/dove135g.jpg",
+      "precio": 1.25
+    },
+    {
+      "nombre": "JABON PROTEX BAÑO 110 G",
+      "url": "/limpieza/jabon/protex110g.jpg",
+      "precio": 1.15
+    },
+    {
+      "nombre": "JABON PROTEX BAÑO AVENA 110 G",
+      "url": "/limpieza/jabon/protexavena110g.jpg",
+      "precio": 1.15
+    },
+    {
+      "nombre": "JABON LAVAR ROPA MAX 425 G",
+      "url": "/limpieza/jabon/max425g.jpg",
+      "precio": 1.25
+    },
+    {
+      "nombre": "JABON LAVAR ROPA ZIX 425 G",
+      "url": "/limpieza/jabon/packsix425g.jpg",
+      "precio": 1.35
+    }
+  ]

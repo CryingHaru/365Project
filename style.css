@@ -3,6 +3,10 @@
     font-family: cinvisible;
     src: url('fonts/invisible.otf');
 }
+@font-face {
+    font-family: cvogue;
+    src: url('fonts/vogue.ttf');
+}
 /*Elementos Generales*/
 * {
     user-select: none;
@@ -16,11 +20,14 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
 h1 {
-    color: #f90;
+    color: rgb(255, 255, 255);
     font-size: 180%;
     font-weight: normal;
+    font-family: cinvisible;
 }
+
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -37,6 +44,7 @@ h1 {
 ::-webkit-scrollbar-thumb:hover {
     background: #dd3c3c;
 }
+
 /* header */
 header {
     color: #ffffff;
@@ -86,6 +94,7 @@ header .hecontact {
 header .logo img {
     width: 100%;
 }
+
 /*Menu lateral*/
 .sidebar {
     position: fixed;
@@ -215,12 +224,14 @@ header .logo img {
         font-size: 20px;
     }
 }
+
 /*slider de imagenes*/
 .slider {
     margin-top: 3px;
     width: auto;
     overflow: hidden;
     margin-bottom: 10px;
+    height: 500px
 }
 
 .slider ul {
@@ -240,6 +251,7 @@ header .logo img {
 .slider img {
     width: 100%;
 }
+
 /*Articulo miusion vision*/
 #articulo {
     width: 100%;
@@ -272,6 +284,7 @@ header .logo img {
     width: 90%;
     padding: 5px;
 }
+
 /*icono de compra*/
 #logocarrito {
     background-image: url("icons/shopvacio.svg");
@@ -294,6 +307,7 @@ header .logo img {
     color: red;
     font-size: 10px;
 }
+
 /*footer*/
 footer {
     background-color: #F1F1F1;
@@ -356,6 +370,25 @@ footer {
 }
 
 /* Animaciones */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(365deg);
+    }
+}
+
+@keyframes rotateinvert {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-365deg);
+    }
+}
 @keyframes slideranim {
     0% {
         margin-left: 0;
@@ -401,32 +434,78 @@ footer {
 /* CSS PRODUCTOS */
 
 .mcont span {
-    color: rgb(247, 45, 45);
+    color: rgb(80, 79, 79);
     font-size: 12px;
-    margin: 10px;
-    margin-bottom: 5px;
     font-family: cinvisible;
-    text-shadow: 0px 2px 3px rgb(20, 243, 12);
+    /*text-shadow: 0px 2px 3px rgb(20, 243, 12);*/
 
 }
+.mcont strong {
+    color: rgb(80, 79, 79);
+    font-size: 20px;
+    position: relative;
+    align-items: start;
+    font-family: cinvisible;
+    /*text-shadow: 0px 2px 3px rgb(20, 243, 12);*/
 
-.mcont .item{
+}
+.mcont h2 {
+    color: rgb(80, 79, 79);
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-family: cinvisible;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+    /*text-shadow: 0px 2px 3px rgb(20, 243, 12);*/
+
+}
+.mcont .boton{
+width: 150px;
+height: 40px;
+margin-bottom: 5px;
+margin-top: 5px;
+border-radius: 5px;
+background-color: #1714dd;
+display: flex;
+flex-wrap: wrap;
+font-family: cvogue;
+justify-content: center;
+align-content: center;
+color: white;
+text-align: center;
+}
+.mcont .boton:hover{
+    background-color: #4d4bd4;
+    cursor: pointer;
+    
+}
+.boton .cvalor{
+    width: 37px;
+}
+
+.mcont .item {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: center;
+    text-align: left;
     width: 150px;
-    height: 150px;
+    height: 140px;
     margin-top: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     max-height: 90px;
     margin-bottom: 10px;
     border-radius: 15px;
     border: 1px solid red;
     background-color: #e0e0e0;
 }
+.mcont:hover .item{
+    transform: rotate(3deg);
+}
+
 .mostrador {
     display: flex;
     flex-wrap: wrap;
@@ -434,15 +513,18 @@ footer {
     justify-content: center;
     width: 730px;
     margin: 0 auto;
+    margin-top: 15px;
 }
-
+.mcont a{
+    text-decoration: none;
+}
 .mcont {
     display: flex;
     flex-direction: column;
     margin: 10px 20px;
     box-shadow: 0 3px 8px 0 rgb(241, 9, 9), 0 6px 20px 0 rgba(248, 232, 4, 0.986);
-    width: 150px;
-    height: 240px;
+    width: 200px;
+    height: 300px;
     position: relative;
     justify-content: space-between;
     background-color: rgb(252, 228, 17);
@@ -458,8 +540,115 @@ footer {
 }
 
 .mcont:hover {
-    border: 5px solid rgb(214, 5, 5);
     transform: rotate(-3deg);
     background-color: rgb(235, 231, 9);
+    border: 5px solid rgb(214, 5, 5);
+}
+
+
+/*FORM*/
+#carritoxd{
+    background-color: #00000000;
+    padding: 0;
+    border-radius: 40px;
+    border: none;
+}
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.872);
+  }
+
+form {
+    margin: 0 auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #3a2a74;
+    padding: 5px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    text-align: center;
+    width: 350px;
+    background-color: #dd0b0b;
+}
+
+form h2 {
+    color: #f8d50c;
+    font-size: 25px;
+}
+
+.form-txt {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.form-txt a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.form-txt a:hover {
+    color: #000000;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#carritoxd input,#contacto input , textarea {
+    background-color: #e9ec08;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #000000;
+}
+form ul{
+    background-color: #e9ec08;
+    padding: 13px 20px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 10px;
+    color: #000000;
+
+}
+form li{
+    list-style-type: none;
+}
+
+form::placeholder { 
+    color: #818080;
+    font-size: 15px;
+}
+
+form:focus {
+    outline: 3px solid #fdd807;
+}
+
+.btn {
+    background-color: #f7be04;
+    color: hsl(0, 17%, 92%);
+    font-size: 17px;
     cursor: pointer;
+}
+.btn:hover {
+    background-color: #2110df;
+}
+
+@media(max-width:991px){
+    body{
+        padding: 30px;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+#titulo{
+    text-align: center;
+    margin: 0 auto;
 }

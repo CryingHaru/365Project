@@ -1,0 +1,48 @@
+[
+  {
+    "nombre": "Boquitas Palitos Papa 300G",
+    "url": "/golosinas/yummies/palitospapa.jpg",
+    "precio": 1.7,
+    "cat":"Yummies"
+  },
+  {
+    "nombre": "Boquitas Ranchitas Nacho Queso 300G",
+    "url": "/golosinas/yummies/ranchitasqueso.jpg",
+    "precio": 1.7
+  },
+  {
+    "nombre": "Boquitas Ranchitas Nacho Picantes 300G",
+    "url": "/golosinas/yummies/ranchitaspicantes.jpg",
+    "precio": 1.7
+  },
+  {
+    "nombre": "Boquitas YumMix Tropical 190G",
+    "url": "/golosinas/yummies/yummix.jpg",
+    "precio": 1.88
+  },
+  {
+    "nombre": "Platanitos Zambos con chile limon 140G",
+    "url": "/golosinas/yummies/zambos.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "Platanitos Zambos Chicharron 130G",
+    "url": "/golosinas/yummies/zamboschicharron.jpg",
+    "precio": 1.1
+  },
+  {
+    "nombre": "Zambos Casera Yummiex 140G",
+    "url": "/golosinas/yummies/zamboslamina.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "Papitas Zibas Clasicas 80G",
+    "url": "/golosinas/yummies/zibasclasicas.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "Papitas Zibas Especies 80G",
+    "url": "/golosinas/yummies/zibasespecies.jpg",
+    "precio": 1.15
+  }
+]

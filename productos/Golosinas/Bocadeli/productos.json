@@ -1,0 +1,43 @@
+[
+  {
+    "nombre": "Boquitas Buenachos Queziisimo 160G",
+    "url": "/golosinas/bocadeli/buenachos.jpg",
+    "precio": 1.15,
+    "cat":"BocaDelis"
+  },
+  {
+    "nombre": "Boquitas Frijoli Chips 150G",
+    "url": "/golosinas/bocadeli/frijolitos.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "Boquitas Gustitos 93G ",
+    "url": "/golosinas/bocadeli/gustitos.jpg",
+    "precio": 1.05
+  },
+  {
+    "nombre": "Boquitas Kitos 29G",
+    "url": "/golosinas/bocadeli/kitos.jpg",
+    "precio": 0.44
+  },
+  {
+    "nombre": "Boquitas Papasitas Queso 29G ",
+    "url": "/golosinas/bocadeli/papitas.jpg",
+    "precio": 0.44
+  },
+  {
+    "nombre": "Boquitas Piguis 94G",
+    "url": "/golosinas/bocadeli/piguis.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "Boquitas Bocadelis Trompetas de pizza 75G",
+    "url": "/golosinas/bocadeli/pizza.jpg",
+    "precio": 1.15
+  },
+  {
+    "nombre": "quesi trix Picante 145G",
+    "url": "/golosinas/bocadeli/quesitrix.jpg",
+    "precio": 1.14
+  }
+]

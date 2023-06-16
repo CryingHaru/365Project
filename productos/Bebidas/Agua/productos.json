@@ -1,0 +1,43 @@
+[
+  {
+    "nombre": "ALPINA 1 GALON",
+    "url": "/bebidas/agua/alpina1galon.jpg",
+    "precio": 1.25,
+    "cat":"Agua"
+  },
+  {
+    "nombre": "ALPINA 3 LITROS",
+    "url": "/bebidas/agua/alpina3lt.jpg",
+    "precio": 1.75
+  },
+  {
+    "nombre": "CASCADA 700 ML",
+    "url": "/bebidas/agua/cascada700ml.jpg",
+    "precio": 0.75
+  },
+  {
+    "nombre": "CRISTAL 600 ML",
+    "url": "/bebidas/agua/cristal600ml.jpg",
+    "precio": 0.55
+  },
+  {
+    "nombre": "PACK 12 PERLITAS 600 ML",
+    "url": "/bebidas/agua/packperlitas600ml.jpg",
+    "precio": 5.75
+  },
+  {
+    "nombre": "PERLITAS 1 GALON",
+    "url": "/bebidas/agua/perlitas1galon.jpg",
+    "precio": 1
+  },
+  {
+    "nombre": "PERLITAS 680 ML",
+    "url": "/bebidas/agua/perlitas680ml.jpg",
+    "precio": 0.65
+  },
+  {
+    "nombre": "PERLITAS 1300 ML",
+    "url": "/bebidas/agua/perlitas1300ml.jpg",
+    "precio": 1.15
+  }
+]

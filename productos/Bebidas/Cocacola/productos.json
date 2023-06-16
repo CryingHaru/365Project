@@ -1,0 +1,43 @@
+[
+      {
+        "nombre": "COCACOLA 1.25 LITROS",
+        "url": "/bebidas/cocacola/cocacola125l.jpg",
+        "precio": 1.25,
+        "cat":"Coca Cola"
+      },
+      {
+        "nombre": "COCACOLA 2 LITROS",
+        "url": "/bebidas/cocacola/cocacola2l.jpg",
+        "precio": 2.75
+      },
+      {
+        "nombre": "COCACOLA VIDRIO 3 LITROS",
+        "url": "/bebidas/cocacola/cocacola3l.jpg",
+        "precio": 3.25
+      },
+      {
+        "nombre": "COCACOLA LATA 355 ML",
+        "url": "/bebidas/cocacola/cocacola355ml.jpg",
+        "precio": 0.75
+      },
+      {
+        "nombre": "FANTA 1 LITRO",
+        "url": "/bebidas/cocacola/fanta1l.jpg",
+        "precio": 1.25
+      },
+      {
+        "nombre": "SPRITE 3 LITROS",
+        "url": "/bebidas/cocacola/sprite3l.jpg",
+        "precio": 2.75
+      },
+      {
+        "nombre": "AGUA CIELO 1 LITRO",
+        "url": "/bebidas/cocacola/aguacielo1l.jpg",
+        "precio": 0.75
+      },
+      {
+        "nombre": "AGUA CIELO 600 ML",
+        "url": "/bebidas/cocacola/aguacielo600ml.jpg",
+        "precio": 0.55
+      }
+    ]

@@ -1,5 +1,18 @@
+function mostrar() {
+    const sidebar = document.getElementById("sidebar");
+    const logo = document.getElementById("logo");
+    if (sidebar.style.width === "150px") {
+        sidebar.style.width = "0";
+        logo.classList.add("imglogocerrar");
+        setTimeout(function () { logo.classList.remove("imglogocerrar"); }, 1000);
+    } else {
+        sidebar.style.width = "150px";
+        logo.classList.add("imglogoanim");
+        setTimeout(function () { logo.classList.remove("imglogoanim"); }, 1000);
+    }
+}
 
-fetch("jsons/categorias.json")
+fetch("/jsons/categorias.json")
     .then(response => response.json())
     .then(data => {
         const categoriaslis = document.getElementById("catlist");
@@ -20,17 +33,4 @@ fetch("jsons/categorias.json")
         });
     });
 
-function mostrar() {
-    const sidebar = document.getElementById("sidebar");
-    const logo = document.getElementById("logo");
-    if (sidebar.style.width === "150px") {
-        sidebar.style.width = "0";
-        logo.classList.add("imglogocerrar");
-        setTimeout(function () { logo.classList.remove("imglogocerrar"); }, 1000);
-    } else {
-        sidebar.style.width = "150px";
-        logo.classList.add("imglogoanim");
-        setTimeout(function () { logo.classList.remove("imglogoanim"); }, 1000);
-    }
-}
 

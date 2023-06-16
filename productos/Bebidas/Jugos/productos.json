@@ -1,0 +1,43 @@
+[
+  {
+    "nombre": "DURZANO PETIT 330 ML",
+    "url": "/bebidas/jugos/durazno330ml.jpg",
+    "precio": 0.65,
+    "cat":"Jugos"
+  },
+  {
+    "nombre": "GUAYABA VALLE 330 ML",
+    "url": "/bebidas/jugos/guayaba330ml.jpg",
+    "precio": 0.85
+  },
+  {
+    "nombre": "MANGO PETIT 330 ML",
+    "url": "/bebidas/jugos/mango330ml.jpg",
+    "precio": 0.65
+  },
+  {
+    "nombre": "MANZANA NATURAL 330 ML",
+    "url": "/bebidas/jugos/manzana330ml.jpg",
+    "precio": 0.55
+  },
+  {
+    "nombre": "MANZANA VALLE 330 ML",
+    "url": "/bebidas/jugos/manzanavalle330ml.jpg",
+    "precio": 0.85
+  },
+  {
+    "nombre": "PERA 330 ML",
+    "url": "/bebidas/jugos/pera330ml.jpg",
+    "precio": 0.65
+  },
+  {
+    "nombre": "PETIT CAJA 200 ML",
+    "url": "/bebidas/jugos/petitcaja200ml.jpg",
+    "precio": 1.35
+  },
+  {
+    "nombre": "PIÑA NATURAL 330 ML",
+    "url": "/bebidas/jugos/piña330ml.jpg",
+    "precio": 0.55
+  }
+]

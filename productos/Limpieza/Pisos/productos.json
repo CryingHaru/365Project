@@ -1,0 +1,43 @@
+[
+  {
+    "nombre": "AZISTIN LAVANDA 450 ML",
+    "url": "/limpieza/pisos/azistin450ml.jpg",
+    "precio": 1.35,
+    "cat":"Pisos"
+  },
+  {
+    "nombre": "AZISTIN MANZANA 900 ML",
+    "url": "/limpieza/pisos/azistin900ml.jpg",
+    "precio": 2.25
+  },
+  {
+    "nombre": "AZISTIN CLORO 900 ML",
+    "url": "/limpieza/pisos/azistincloro900ml.jpg",
+    "precio": 2.25
+  },
+  {
+    "nombre": "AZISTIN FRESA 900 ML",
+    "url": "/limpieza/pisos/azistinfresa900ml.jpg",
+    "precio": 2.25
+  },
+  {
+    "nombre": "MAGIA BLANCA 7 LITROS",
+    "url": "/limpieza/pisos/magiablanca7lt.jpg",
+    "precio": 15.55
+  },
+  {
+    "nombre": "MR. MUSCULO 900 ML",
+    "url": "/limpieza/pisos/musculo900ml.jpg",
+    "precio": 2.55
+  },
+  {
+    "nombre": "PINOL 1 LITRO",
+    "url": "/limpieza/pisos/pinol1lt.jpg",
+    "precio": 1.35
+  },
+  {
+    "nombre": "PINOL 2 LITROS",
+    "url": "/limpieza/pisos/pinol2l.jpg",
+    "precio": 3.25
+  }
+]
