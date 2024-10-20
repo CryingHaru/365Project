@@ -12,7 +12,7 @@ function mostrar() {
     }
 }
 
-fetch("/jsons/categorias.json")
+fetch("./jsons/categorias.json")
     .then(response => response.json())
     .then(data => {
         const categoriaslis = document.getElementById("catlist");
@@ -20,7 +20,7 @@ fetch("/jsons/categorias.json")
             let circulito = document.createElement("div");
             circulito.classList.add("circulito");
             let circulitoimg = document.createElement("img");
-            circulitoimg.src = "/imgs/" + categorias.label + ".png";
+            circulitoimg.src = "./imgs/" + categorias.label + ".png";
             let list = document.createElement("li");
             list.innerHTML = categorias.label;
             circulito.appendChild(circulitoimg);
@@ -28,7 +28,7 @@ fetch("/jsons/categorias.json")
             list.classList.add("textos");
             categoriaslis.appendChild(circulito);
             circulito.onclick = function () {
-                window.location.href = "/productos/" + categorias.label + "/";
+                window.location.href = "./productos/" + categorias.label + "/";
             };
         });
     });
